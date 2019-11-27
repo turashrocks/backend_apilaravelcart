@@ -24,13 +24,13 @@ class ProductVariationResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            //not req 'price' => $this->formattedPrice,
-            'price' => $this->price
-            //'price_varies' => $this->priceVaries(),
-            // 'stock_count' => (int) $this->stockCount(),
-            // 'type' => $this->type->name,
-            // 'in_stock' => $this->inStock(),
-            // 'product' => new ProductIndexResource($this->product),
+            'price' => $this->formattedPrice,
+            //'price' => $this->price
+            'price_varies' => $this->priceVaries(),
+            'stock_count' => (int) $this->stockCount(),
+            'type' => $this->type->name,
+            'in_stock' => $this->inStock(),
+            'product' => new ProductIndexResource($this->product),
         ];
     }
 }

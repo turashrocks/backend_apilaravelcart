@@ -9,11 +9,11 @@ return [
     |
     | allowedOrigins, allowedHeaders and allowedMethods can be set to array('*')
     | to accept any value.
-    |
+    | 'allowedOrigins' => ['http://localhost:3434'],
     */
    
     'supportsCredentials' => false,
-    'allowedOrigins' => ['http://localhost:3434'],
+    'allowedOrigins' => ['*'],
     'allowedOriginsPatterns' => [],
     'allowedHeaders' => ['*'],
     'allowedMethods' => ['*'],

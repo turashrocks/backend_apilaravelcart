@@ -168,7 +168,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/framework/cache/data',
+        'path' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -205,7 +205,7 @@
     'supportsCredentials' => false,
     'allowedOrigins' => 
     array (
-      0 => 'http://localhost:3434',
+      0 => '*',
     ),
     'allowedOriginsPatterns' => 
     array (
@@ -240,8 +240,8 @@
         'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'Turash',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'kryptonite',
+        'password' => 'callingalphadown',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -264,8 +264,8 @@
         'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'Turash',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'kryptonite',
+        'password' => 'callingalphadown',
         'charset' => 'utf8',
         'prefix' => '',
         'schema' => 'public',
@@ -281,8 +281,8 @@
         'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'Turash',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'kryptonite',
+        'password' => 'callingalphadown',
         'charset' => 'utf8',
         'prefix' => '',
       ),
@@ -309,12 +309,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/app',
+        'root' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/app/public',
+        'root' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -491,13 +491,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/logs/laravel.log',
+        'path' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/logs/laravel.log',
+        'path' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 7,
       ),
@@ -549,7 +549,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/resources/views/vendor/mail',
+        0 => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/resources/views/vendor/mail',
       ),
     ),
   ),
@@ -628,7 +628,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/framework/sessions',
+    'files' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -648,9 +648,9 @@
   array (
     'paths' => 
     array (
-      0 => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/resources/views',
+      0 => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/resources/views',
     ),
-    'compiled' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/framework/views',
+    'compiled' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/framework/views',
   ),
   'debugbar' => 
   array (
@@ -663,7 +663,7 @@
     array (
       'enabled' => true,
       'driver' => 'file',
-      'path' => '/Users/Turash/Documents/codecourse/laravel-nuxt-e-commerce/cart/storage/debugbar',
+      'path' => '/media/turash/Transcend/Mac Live/My HD/IMPORTANT DEV/codecourse/laravel-nuxt-e-commerce/cart/storage/debugbar',
       'connection' => NULL,
       'provider' => '',
     ),
